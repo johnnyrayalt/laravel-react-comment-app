@@ -1,0 +1,40 @@
+@import "./variables";
+
+.section-header-text {
+    font-size: large;
+}
+
+.comment-list-container {
+    padding: 0 1em;
+}
+
+.comment-list-ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: $max-width;
+}
+
+.link-to-comment {
+    color: black;
+    margin: 10px 10px;
+
+    &:hover {
+        color: black;
+        text-decoration: none;
+    }
+}
+
+.comment-list-li {
+    cursor: ne-resize;
+    .comment-wrapper {
+        transition: $transition;
+
+        &:hover {
+            box-shadow: $box-shadow;
+        }
+    }
+}
+
+.add-comment-form-container {
+    margin-bottom: 2em;
+}

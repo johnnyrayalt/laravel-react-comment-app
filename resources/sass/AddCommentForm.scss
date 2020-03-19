@@ -1,0 +1,41 @@
+@import "./variables";
+
+.form-group {
+    input,
+    label,
+    textarea {
+        display: block;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        max-width: $max-width;
+    }
+}
+
+.success-message {
+    font-size: 20px;
+}
+
+.no-submit {
+    user-select: none;
+}
+
+.add-comment-button {
+    width: auto;
+    padding: 1em;
+    background-color: white;
+    border: $border;
+    border-radius: $radius;
+    color: black;
+    transition: $transition;
+    cursor: ne-resize;
+
+    &:hover {
+        cursor: ne-resize;
+        box-shadow: $box-shadow;
+        color: black;
+        text-decoration: none;
+    }
+}

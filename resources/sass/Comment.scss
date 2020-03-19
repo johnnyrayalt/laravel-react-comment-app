@@ -1,0 +1,24 @@
+@import "./variables";
+
+.comment-wrapper {
+    background-color: white;
+    color: black;
+    max-width: $max-width;
+    padding: 1em;
+    border: $border;
+    border-radius: $radius;
+
+    .italic {
+        font-style: italic;
+    }
+
+    .comment-name-wrapper,
+    .comment-email-wrapper {
+        padding: 2.5px;
+    }
+
+    .comment-comment-wrapper {
+        padding: 10px 20px;
+        max-width: $max-width;
+    }
+}

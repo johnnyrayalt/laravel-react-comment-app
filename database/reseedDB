@@ -1,0 +1,6 @@
+#!/bin/bash
+
+composer dump-autoload
+php artisan db:seed --class=CommentsTableSeeder
+php artisan migrate:fresh --seed
+npm run dev

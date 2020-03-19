@@ -1,0 +1,17 @@
+@import "./variables";
+
+.blog-post-container {
+    max-width: $max-width;
+    margin-bottom: 2em;
+    width: 100%;
+
+    img {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .blog-text {
+        padding: 1em 0 2em;
+        font-size: 16px;
+    }
+}
