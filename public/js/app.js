@@ -6534,7 +6534,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, ".line-break {\n  border: 2px solid #a4a4a4;\n  background-color: #a4a4a4;\n  height: 1px;\n  width: 100%;\n  margin: 0.2em;\n}\n\n.form-group input,\n.form-group label,\n.form-group textarea {\n  display: block;\n}\n.form-group input,\n.form-group textarea {\n  width: 100%;\n  max-width: 600px;\n}\n\n.success-message {\n  font-size: 20px;\n}\n\n.no-submit {\n  -webkit-user-select: none;\n     -moz-user-select: none;\n      -ms-user-select: none;\n          user-select: none;\n}\n\n.add-comment-button {\n  width: auto;\n  padding: 1em;\n  background-color: white;\n  border: 2px solid #a4a4a4;\n  border-radius: 10px;\n  color: black;\n  transition: box-shadow 0.2s ease-in-out;\n  cursor: ne-resize;\n}\n.add-comment-button:hover {\n  cursor: ne-resize;\n  box-shadow: 5px 5px rgba(0, 140, 255, 0.2);\n  color: black;\n  text-decoration: none;\n}", ""]);
+exports.push([module.i, ".form {\n  max-width: 600px;\n}\n.form .form-group input,\n.form .form-group label,\n.form .form-group textarea {\n  display: block;\n  width: 100%;\n}\n.form .add-comment-button {\n  width: auto;\n  padding: 1em;\n  background-color: white;\n  border: 2px solid #a4a4a4;\n  border-radius: 10px;\n  color: #a4a4a4;\n  transition: box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;\n  cursor: ne-resize;\n}\n.form .add-comment-button .button-text {\n  font-weight: 600;\n  font-family: \"Open Sans\", sans-serif;\n}\n.form .add-comment-button:hover {\n  cursor: ne-resize;\n  box-shadow: 5px 5px rgba(0, 140, 255, 0.2);\n  text-decoration: none;\n  color: black;\n}", ""]);
 
 // exports
 
@@ -6553,7 +6553,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, ".line-break {\n  border: 2px solid #a4a4a4;\n  background-color: #a4a4a4;\n  height: 1px;\n  width: 100%;\n  margin: 0.2em;\n}\n\n.blog-post-container {\n  max-width: 600px;\n  margin-bottom: 2em;\n  width: 100%;\n}\n.blog-post-container img {\n  width: 100%;\n  max-width: 100%;\n}\n.blog-post-container .blog-text {\n  padding: 1em 0 2em;\n  font-size: 16px;\n}", ""]);
+exports.push([module.i, ".blog-post-container {\n  max-width: 600px;\n  margin-bottom: 2em;\n  width: 100%;\n}\n.blog-post-container img {\n  width: 100%;\n  max-width: 100%;\n}\n.blog-post-container .blog-text {\n  padding: 1em 0 2em;\n}", ""]);
 
 // exports
 
@@ -6572,7 +6572,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, ".line-break {\n  border: 2px solid #a4a4a4;\n  background-color: #a4a4a4;\n  height: 1px;\n  width: 100%;\n  margin: 0.2em;\n}\n\n.comment-wrapper {\n  background-color: white;\n  color: black;\n  max-width: 600px;\n  padding: 1em;\n  border: 2px solid #a4a4a4;\n  border-radius: 10px;\n}\n.comment-wrapper .italic {\n  font-style: italic;\n}\n.comment-wrapper .comment-name-wrapper,\n.comment-wrapper .comment-email-wrapper {\n  padding: 2.5px;\n}\n.comment-wrapper .comment-comment-wrapper {\n  padding: 10px 20px;\n  max-width: 600px;\n}", ""]);
+exports.push([module.i, ".comment-wrapper {\n  background-color: white;\n  color: black;\n  max-width: 600px;\n  padding: 1em;\n  border: 2px solid #a4a4a4;\n  border-radius: 10px;\n}\n.comment-wrapper .italic {\n  font-style: italic;\n  padding-right: 0.5em;\n}\n.comment-wrapper .comment-name-wrapper,\n.comment-wrapper .comment-email-wrapper {\n  padding: 2.5px;\n}\n.comment-wrapper .comment-comment-wrapper {\n  padding: 10px 20px;\n  max-width: 600px;\n}", ""]);
 
 // exports
 
@@ -6591,7 +6591,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, ".line-break {\n  border: 2px solid #a4a4a4;\n  background-color: #a4a4a4;\n  height: 1px;\n  width: 100%;\n  margin: 0.2em;\n}\n\n.section-header-text {\n  font-size: large;\n}\n\n.comment-list-container {\n  padding: 0 1em;\n}\n\n.comment-list-ul {\n  list-style-type: none;\n  padding: 0;\n  max-width: 600px;\n}\n\n.link-to-comment {\n  color: black;\n  margin: 10px 10px;\n}\n.link-to-comment:hover {\n  color: black;\n  text-decoration: none;\n}\n\n.comment-list-li {\n  cursor: ne-resize;\n}\n.comment-list-li .comment-wrapper {\n  transition: box-shadow 0.2s ease-in-out;\n}\n.comment-list-li .comment-wrapper:hover {\n  box-shadow: 5px 5px rgba(0, 140, 255, 0.2);\n}\n\n.add-comment-form-container {\n  margin-bottom: 2em;\n}", ""]);
+exports.push([module.i, ".section-header-text {\n  font-size: large;\n}\n\n.comment-list-container {\n  padding: 0 1em;\n}\n\n.comment-list-ul {\n  list-style-type: none;\n  padding: 0;\n  max-width: 600px;\n}\n\n.link-to-comment {\n  color: black;\n  margin: 10px 10px;\n}\n.link-to-comment:hover {\n  color: black;\n  text-decoration: none;\n}\n\n.comment-list-li {\n  cursor: ne-resize;\n}\n.comment-list-li .comment-wrapper {\n  transition: box-shadow 0.2s ease-in-out;\n}\n.comment-list-li .comment-wrapper:hover {\n  box-shadow: 5px 5px rgba(0, 140, 255, 0.2);\n}\n\n.add-comment-form-container {\n  margin-bottom: 2em;\n}", ""]);
 
 // exports
 
@@ -6610,7 +6610,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, ".line-break {\n  border: 2px solid #a4a4a4;\n  background-color: #a4a4a4;\n  height: 1px;\n  width: 100%;\n  margin: 0.2em;\n}\n\n.header-nav {\n  padding: 1em;\n}\n.header-nav .header-text {\n  color: black;\n  cursor: nw-resize;\n  font-size: larger;\n  font-weight: bold;\n}\n.header-nav .header-text:hover {\n  text-decoration: none;\n}", ""]);
+exports.push([module.i, ".header-nav {\n  padding: 1em;\n  width: auto;\n}\n.header-nav .header-text {\n  color: black;\n  cursor: nw-resize;\n}\n.header-nav .header-text:hover {\n  text-decoration: none;\n}", ""]);
 
 // exports
 
@@ -6629,7 +6629,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, ".is-loading {\n  font-size: larger;\n  font-weight: bold;\n  padding: 0 1em;\n}", ""]);
+exports.push([module.i, ".is-loading {\n  padding: 0 1em;\n}", ""]);
 
 // exports
 
@@ -70470,7 +70470,7 @@ var AddCommentForm = /*#__PURE__*/function (_Component) {
     };
     _this.handleFieldChange = _this.handleFieldChange.bind(_assertThisInitialized(_this));
     _this.handleAddNewComment = _this.handleAddNewComment.bind(_assertThisInitialized(_this));
-    _this.handleReset = _this.handleReset.bind(_assertThisInitialized(_this));
+    _this.handleRefresh = _this.handleRefresh.bind(_assertThisInitialized(_this));
     return _this;
   }
 
@@ -70502,8 +70502,8 @@ var AddCommentForm = /*#__PURE__*/function (_Component) {
       });
     }
   }, {
-    key: "handleReset",
-    value: function handleReset() {
+    key: "handleRefresh",
+    value: function handleRefresh() {
       this.setState({
         isSubmittedSuccessfully: false
       });
@@ -70517,9 +70517,11 @@ var AddCommentForm = /*#__PURE__*/function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-group"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+        className: "text",
         htmlFor: "name"
-      }, "Author Name:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Author Name:")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
         required: true,
+        className: "text",
         placeholder: "Please enter your name",
         id: "name",
         type: "text",
@@ -70529,9 +70531,11 @@ var AddCommentForm = /*#__PURE__*/function (_Component) {
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-group"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+        className: "text",
         htmlFor: "email"
-      }, "Author Email:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Author Email:")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
         required: true,
+        className: "text",
         placeholder: "Please enter your email address",
         id: "email",
         type: "text",
@@ -70541,23 +70545,31 @@ var AddCommentForm = /*#__PURE__*/function (_Component) {
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-group"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+        className: "text",
         htmlFor: "comment"
-      }, "Comment:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("textarea", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Comment:")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("textarea", {
         required: true,
+        className: "text",
         id: "comment",
         name: "comment",
         rows: "10",
         value: this.state.comment,
         onChange: this.handleFieldChange
-      })), this.state.isSubmittedSuccessfully ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "no-submit"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "button-wrapper"
+      }, this.state.isSubmittedSuccessfully ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "success-message"
       }, this.state.successMessage), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-        onClick: this.handleReset,
+        onClick: this.handleRefresh,
         className: "add-comment-button"
-      }, "Another?")) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "button-text"
+      }, "Another?"))) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         onClick: this.props.action,
         className: "add-comment-button"
-      }, "Add Comment"));
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "button-text"
+      }, "Add Comment"))));
     }
   }]);
 
@@ -70584,8 +70596,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
 /* harmony import */ var _views_CommentsListView__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../views/CommentsListView */ "./resources/js/views/CommentsListView.js");
 /* harmony import */ var _views_SingleCommentView__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../views/SingleCommentView */ "./resources/js/views/SingleCommentView.js");
-/* harmony import */ var _views_AddCommentView__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../views/AddCommentView */ "./resources/js/views/AddCommentView.js");
-/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Header */ "./resources/js/components/Header.js");
+/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Header */ "./resources/js/components/Header.js");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -70611,7 +70622,6 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 
 
-
 var App = /*#__PURE__*/function (_Component) {
   _inherits(App, _Component);
 
@@ -70624,7 +70634,7 @@ var App = /*#__PURE__*/function (_Component) {
   _createClass(App, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["BrowserRouter"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_6__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Switch"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["BrowserRouter"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_5__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Switch"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
         exact: true,
         path: "/",
         component: _views_CommentsListView__WEBPACK_IMPORTED_MODULE_3__["default"]
@@ -70632,10 +70642,6 @@ var App = /*#__PURE__*/function (_Component) {
         exact: true,
         path: "/comment/:id",
         component: _views_SingleCommentView__WEBPACK_IMPORTED_MODULE_4__["default"]
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
-        exact: true,
-        path: "/add-comment",
-        component: _views_AddCommentView__WEBPACK_IMPORTED_MODULE_5__["default"]
       }))));
     }
   }]);
@@ -70673,7 +70679,11 @@ var BlogPost = function BlogPost() {
     alt: "a cute kitty"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "blog-text"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Meow meow"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "It's only ever one post and its always a cat.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "text"
+  }, "Meow meow"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "text"
+  }, "It's only ever one post and its always a cat.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "line-break"
   }));
 };
@@ -70710,16 +70720,20 @@ var Comment = function Comment(_ref) {
     className: "comment-wrapper"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "comment-name-wrapper"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     className: "italic"
-  }, "Author:"), " ", name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Author:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "text"
+  }, name)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "comment-email-wrapper"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     className: "italic"
-  }, "Email:"), " ", email), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Email:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "text"
+  }, email)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "line-break"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "comment-comment-wrapper"
+    className: "comment-comment-wrapper text"
   }, comment));
 };
 
@@ -70750,7 +70764,7 @@ var Header = function Header() {
     className: "header-nav"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "header-container"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     className: "header-text",
     to: "/"
   }, "One Blog Post"))));
@@ -70774,75 +70788,12 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var IsLoading = function IsLoading() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "text is-loading"
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "is-loading"
   }, "...Loading");
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (IsLoading);
-
-/***/ }),
-
-/***/ "./resources/js/views/AddCommentView.js":
-/*!**********************************************!*\
-  !*** ./resources/js/views/AddCommentView.js ***!
-  \**********************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_BlogPost__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/BlogPost */ "./resources/js/components/BlogPost.js");
-/* harmony import */ var _components_AddCommentForm__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/AddCommentForm */ "./resources/js/components/AddCommentForm.js");
-function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-
-
-
-
-
-var AddCommentView = /*#__PURE__*/function (_Component) {
-  _inherits(AddCommentView, _Component);
-
-  function AddCommentView() {
-    _classCallCheck(this, AddCommentView);
-
-    return _possibleConstructorReturn(this, _getPrototypeOf(AddCommentView).apply(this, arguments));
-  }
-
-  _createClass(AddCommentView, [{
-    key: "render",
-    value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "add-comment-view-container"
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_AddCommentForm__WEBPACK_IMPORTED_MODULE_3__["default"], null));
-    }
-  }]);
-
-  return AddCommentView;
-}(react__WEBPACK_IMPORTED_MODULE_1__["Component"]);
-
-/* harmony default export */ __webpack_exports__["default"] = (AddCommentView);
 
 /***/ }),
 
@@ -70864,10 +70815,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _sass_CommentListView_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_sass_CommentListView_scss__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _sass_IsLoading_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../sass/IsLoading.scss */ "./resources/sass/IsLoading.scss");
 /* harmony import */ var _sass_IsLoading_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_sass_IsLoading_scss__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _components_Comment__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Comment */ "./resources/js/components/Comment.js");
-/* harmony import */ var _components_IsLoading__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/IsLoading */ "./resources/js/components/IsLoading.js");
-/* harmony import */ var _components_BlogPost__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/BlogPost */ "./resources/js/components/BlogPost.js");
-/* harmony import */ var _components_AddCommentForm__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/AddCommentForm */ "./resources/js/components/AddCommentForm.js");
+/* harmony import */ var _components_AddCommentForm__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/AddCommentForm */ "./resources/js/components/AddCommentForm.js");
+/* harmony import */ var _components_BlogPost__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/BlogPost */ "./resources/js/components/BlogPost.js");
+/* harmony import */ var _components_Comment__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Comment */ "./resources/js/components/Comment.js");
+/* harmony import */ var _components_IsLoading__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/IsLoading */ "./resources/js/components/IsLoading.js");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -70911,7 +70862,6 @@ var CommentsListView = /*#__PURE__*/function (_Component) {
       update: false
     };
     _this.handler = _this.handler.bind(_assertThisInitialized(_this));
-    _this.scrollRef = react__WEBPACK_IMPORTED_MODULE_1___default.a.createRef();
     return _this;
   }
 
@@ -70945,8 +70895,6 @@ var CommentsListView = /*#__PURE__*/function (_Component) {
             comments: response.data,
             update: false
           });
-
-          _this3.scrollRef.current.scrollTo(0, 0);
         })["catch"](function (error) {
           return new Error(error);
         });
@@ -70958,16 +70906,14 @@ var CommentsListView = /*#__PURE__*/function (_Component) {
       var comments = this.state.comments;
 
       if (this.state.isLoading) {
-        return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_IsLoading__WEBPACK_IMPORTED_MODULE_6__["default"], {
+        return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_IsLoading__WEBPACK_IMPORTED_MODULE_8__["default"], {
           className: "is-loading"
         });
       }
 
       return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "comment-list-container"
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        ref: this.scrollRef
-      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_BlogPost__WEBPACK_IMPORTED_MODULE_7__["default"], null)), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_BlogPost__WEBPACK_IMPORTED_MODULE_6__["default"], null)), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
         className: "section-header-text"
       }, "Comments"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "comment-list-ul-container"
@@ -70980,10 +70926,10 @@ var CommentsListView = /*#__PURE__*/function (_Component) {
           key: comment.id
         }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
           className: "comment-list-li"
-        }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Comment__WEBPACK_IMPORTED_MODULE_5__["default"], comment)));
+        }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Comment__WEBPACK_IMPORTED_MODULE_7__["default"], comment)));
       }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "add-comment-form-container"
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_AddCommentForm__WEBPACK_IMPORTED_MODULE_8__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_AddCommentForm__WEBPACK_IMPORTED_MODULE_5__["default"], {
         action: this.handler
       })));
     }
