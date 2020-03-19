@@ -21,3 +21,4 @@ How to run this program locally:
 
 1.  `$ php artisan serve` to start Laravel server
 1.  In a new terminal run `$ npm run watch` to start to local dev server
+1.  Navigate to `localhost:8000` to view
