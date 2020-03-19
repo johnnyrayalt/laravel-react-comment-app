@@ -9,12 +9,12 @@ How to run this program locally:
 1. Change the path in the .env file to match the absolute path to the sqlite database that was just created
 1. if on mac run the command `$ chmod 700 database/reseedDB` to allow access to the bash script that seeds and builds a database in one command
 
-    - if you encounter permission errors, or the script won't run, use the following commands to manualy seed and migrate the database
+    - if you encounter permission errors, or the script won't run, use the following commands to manualy seed and migrate the database, else continue to next step
 
         ```
         $ composer dump-autoload
-        $ php artisan db:seed --class=CommentsTableSeeder
         $ php artisan migrate:fresh --seed
+        $ php artisan db:seed --class=CommentsTableSeeder
         $ npm run dev
         ```
 
