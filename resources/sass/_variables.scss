@@ -3,7 +3,8 @@ $body-bg: #eeeeee;
 $max-width: 600px;
 
 // Typography
-$font-family-sans-serif: "Roboto", sans-serif;
+$font-family-roboto: "Roboto", sans-serif;
+$font-family-open-sans: "Open Sans", sans-serif;
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;
 
@@ -25,14 +26,6 @@ $radius: 10px;
 $border: 2px solid $border-color;
 
 // Transition
-$transition: box-shadow 0.2s ease-in-out;
 $box-shadow: 5px 5px rgba($blue, 0.2);
-
-// Line Break
-.line-break {
-    border: $border;
-    background-color: $border-color;
-    height: 1px;
-    width: 100%;
-    margin: 0.2em;
-}
+$transition-duration: 0.2s ease-in-out;
+$box-shadow-transition: box-shadow $transition-duration;

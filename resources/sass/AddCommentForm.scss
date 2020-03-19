@@ -1,41 +1,37 @@
 @import "./variables";
 
-.form-group {
-    input,
-    label,
-    textarea {
-        display: block;
+.form {
+    max-width: $max-width;
+
+    .form-group {
+        input,
+        label,
+        textarea {
+            display: block;
+            width: 100%;
+        }
     }
 
-    input,
-    textarea {
-        width: 100%;
-        max-width: $max-width;
-    }
-}
-
-.success-message {
-    font-size: 20px;
-}
-
-.no-submit {
-    user-select: none;
-}
-
-.add-comment-button {
-    width: auto;
-    padding: 1em;
-    background-color: white;
-    border: $border;
-    border-radius: $radius;
-    color: black;
-    transition: $transition;
-    cursor: ne-resize;
-
-    &:hover {
+    .add-comment-button {
+        width: auto;
+        padding: 1em;
+        background-color: white;
+        border: $border;
+        border-radius: $radius;
+        color: $border-color;
+        transition: $box-shadow-transition, color $transition-duration;
         cursor: ne-resize;
-        box-shadow: $box-shadow;
-        color: black;
-        text-decoration: none;
+
+        .button-text {
+            font-weight: 600;
+            font-family: $font-family-open-sans;
+        }
+
+        &:hover {
+            cursor: ne-resize;
+            box-shadow: $box-shadow;
+            text-decoration: none;
+            color: black;
+        }
     }
 }

@@ -27,7 +27,7 @@
 .comment-list-li {
     cursor: ne-resize;
     .comment-wrapper {
-        transition: $transition;
+        transition: $box-shadow-transition;
 
         &:hover {
             box-shadow: $box-shadow;

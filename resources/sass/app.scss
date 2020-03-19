@@ -1,8 +1,43 @@
 // Fonts
-@import url("https://fonts.googleapis.com/css?family=Nunito");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:600|Roboto&display=swap");
 
 // Variables
 @import "variables";
 
 // Bootstrap
 @import "~bootstrap/scss/bootstrap";
+
+// Global
+// Line Break
+.line-break {
+    border: $border;
+    background-color: $border-color;
+    height: 1px;
+    width: 100%;
+    margin: 0.2em;
+}
+
+// Body Text
+.text {
+    font-family: $font-family-roboto;
+    font-size: 16px;
+}
+
+// Header Text
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font-family-open-sans;
+    display: inline;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+h2 {
+    font-size: 16px;
+}

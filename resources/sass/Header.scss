@@ -2,12 +2,11 @@
 
 .header-nav {
     padding: 1em;
+    width: auto;
 
     .header-text {
         color: black;
         cursor: nw-resize;
-        font-size: larger;
-        font-weight: bold;
 
         &:hover {
             text-decoration: none;
