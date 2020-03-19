@@ -7,13 +7,15 @@ const Comment = ({ ...props }) => {
     return (
         <div className="comment-wrapper">
             <div className="comment-name-wrapper">
-                <span className="italic">Author:</span> {name}
+                <h2 className="italic">Author:</h2>
+                <span className="text">{name}</span>
             </div>
             <div className="comment-email-wrapper">
-                <span className="italic">Email:</span> {email}
+                <h2 className="italic">Email:</h2>
+                <span className="text">{email}</span>
             </div>
             <div className="line-break" />
-            <div className="comment-comment-wrapper">{comment}</div>
+            <div className="comment-comment-wrapper text">{comment}</div>
         </div>
     );
 };

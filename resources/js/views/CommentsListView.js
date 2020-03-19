@@ -3,10 +3,10 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "../../sass/CommentListView.scss";
 import "../../sass/IsLoading.scss";
+import AddCommentForm from "../components/AddCommentForm";
+import BlogPost from "../components/BlogPost";
 import Comment from "../components/Comment";
 import IsLoading from "../components/IsLoading";
-import BlogPost from "../components/BlogPost";
-import AddCommentForm from "../components/AddCommentForm";
 
 class CommentsListView extends Component {
     constructor() {
@@ -17,7 +17,6 @@ class CommentsListView extends Component {
             update: false
         };
         this.handler = this.handler.bind(this);
-        this.scrollRef = React.createRef();
     }
 
     componentDidMount() {
@@ -47,7 +46,6 @@ class CommentsListView extends Component {
                         comments: response.data,
                         update: false
                     });
-                    this.scrollRef.current.scrollTo(0, 0);
                 })
                 .catch(error => {
                     return new Error(error);
@@ -64,11 +62,10 @@ class CommentsListView extends Component {
 
         return (
             <div className="comment-list-container">
-                <div ref={this.scrollRef}></div>
                 <div>
                     <BlogPost />
                 </div>
-                <div className="section-header-text">Comments</div>
+                <h2 className="section-header-text">Comments</h2>
                 <div className="comment-list-ul-container">
                     <ul className="comment-list-ul">
                         {comments.map(comment => (

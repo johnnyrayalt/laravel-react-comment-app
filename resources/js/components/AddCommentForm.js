@@ -1,4 +1,4 @@
-import React, { Component, useState, useEffect } from "react";
+import React, { Component } from "react";
 import "../../sass/AddCommentForm.scss";
 
 class AddCommentForm extends Component {
@@ -13,7 +13,7 @@ class AddCommentForm extends Component {
         };
         this.handleFieldChange = this.handleFieldChange.bind(this);
         this.handleAddNewComment = this.handleAddNewComment.bind(this);
-        this.handleReset = this.handleReset.bind(this);
+        this.handleRefresh = this.handleRefresh.bind(this);
     }
 
     handleFieldChange(event) {
@@ -42,7 +42,7 @@ class AddCommentForm extends Component {
         });
     }
 
-    handleReset() {
+    handleRefresh() {
         this.setState({
             isSubmittedSuccessfully: false
         });
@@ -52,9 +52,12 @@ class AddCommentForm extends Component {
         return (
             <form className="form" onSubmit={this.handleAddNewComment}>
                 <div className="form-group">
-                    <label htmlFor="name">Author Name:</label>
+                    <label className="text" htmlFor="name">
+                        <h2>Author Name:</h2>
+                    </label>
                     <input
                         required
+                        className="text"
                         placeholder="Please enter your name"
                         id="name"
                         type="text"
@@ -64,9 +67,12 @@ class AddCommentForm extends Component {
                     />
                 </div>
                 <div className="form-group">
-                    <label htmlFor="email">Author Email:</label>
+                    <label className="text" htmlFor="email">
+                        <h2>Author Email:</h2>
+                    </label>
                     <input
                         required
+                        className="text"
                         placeholder="Please enter your email address"
                         id="email"
                         type="text"
@@ -76,9 +82,12 @@ class AddCommentForm extends Component {
                     />
                 </div>
                 <div className="form-group">
-                    <label htmlFor="comment">Comment:</label>
+                    <label className="text" htmlFor="comment">
+                        <h2>Comment:</h2>
+                    </label>
                     <textarea
                         required
+                        className="text"
                         id="comment"
                         name="comment"
                         rows="10"
@@ -86,27 +95,28 @@ class AddCommentForm extends Component {
                         onChange={this.handleFieldChange}
                     />
                 </div>
-
-                {this.state.isSubmittedSuccessfully ? (
-                    <>
-                        <div className="no-submit">
-                            {this.state.successMessage}
+                <div className="button-wrapper">
+                    {this.state.isSubmittedSuccessfully ? (
+                        <div>
+                            <div className="success-message">
+                                {this.state.successMessage}
+                            </div>
+                            <button
+                                onClick={this.handleRefresh}
+                                className="add-comment-button"
+                            >
+                                <span className="button-text">Another?</span>
+                            </button>
                         </div>
+                    ) : (
                         <button
-                            onClick={this.handleReset}
+                            onClick={this.props.action}
                             className="add-comment-button"
                         >
-                            Another?
+                            <span className="button-text">Add Comment</span>
                         </button>
-                    </>
-                ) : (
-                    <button
-                        onClick={this.props.action}
-                        className="add-comment-button"
-                    >
-                        Add Comment
-                    </button>
-                )}
+                    )}
+                </div>
             </form>
         );
     }

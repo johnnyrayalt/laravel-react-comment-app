@@ -6,11 +6,11 @@ const Header = () => {
     return (
         <nav className="header-nav">
             <div className="header-container">
-                <h2>
+                <h1>
                     <Link className="header-text" to="/">
                         One Blog Post
                     </Link>
-                </h2>
+                </h1>
             </div>
         </nav>
     );
